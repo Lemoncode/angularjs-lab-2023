@@ -23,7 +23,7 @@ Podemos editar una película existente para ello usaremos el verbo PUT o PATCH d
 
 ![Edición de película](./content/Edicion.png)
 
-Validaciones:
+Validaciones formulario:
 
 - URL Imagen:
   - Obligatorio.
@@ -37,3 +37,31 @@ Validaciones:
 - Director
   - Obligatorio.
   - Mínimo 3 caracteres.
+
+# Servidor
+
+En el repositorio de Angular-Lab se incluye una API Rest para pruebas, el repo esta en la siguiente url:
+
+Clonalo a local, una vez clonado, y en la carpeta de trabajo, ejecuta:
+
+```bash
+cd server
+```
+
+```bash
+npm start
+```
+
+Se levantara un servidor en el puerto 3001, para acceder al listado de películas, la url:
+
+```
+http://localhost:3001/movies
+```
+
+# Opcional
+
+Puntos opcionales a entregar:
+
+- Utilizar los controles de Angular Material.
+- Añadir funcionalidad de creación de película.
+- Añadir un botón de borrado de película.
