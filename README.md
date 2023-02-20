@@ -11,7 +11,7 @@ El listado de películas va a leer los datos de una API REST que nos proporciona
 
 Vamos a mostrar el siguiente layout:
 
-![Listado de películas](./content/listado.png)
+![Listado de películas](./content/Listado.png)
 
 ## Navegación
 
