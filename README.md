@@ -33,10 +33,15 @@ Validaciones formulario:
   - Mínimo 3 caracteres.
 - Año
   - Obligatorio.
-  - Año entre 1900 y 2100.
 - Director
   - Obligatorio.
   - Mínimo 3 caracteres.
+
+# Punto de partida
+
+El punto de partida para la aplicación Angularjs va a ser el _boilerplate_ del repo:
+
+[Enlace al repositorio de boilerplate, punto de arranque](https://github.com/Lemoncode/angularjs-training/tree/main/demos/00-boilerplate)
 
 # Servidor
 
@@ -62,6 +67,5 @@ http://localhost:3001/movies
 
 Puntos opcionales a entregar:
 
-- Utilizar los controles de Angular Material.
 - Añadir funcionalidad de creación de película.
 - Añadir un botón de borrado de película.
